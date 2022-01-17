@@ -1,0 +1,33 @@
+body
+{
+    padding:1%;
+    margin: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top-nav
+{
+    background-color: rgb(133, 250, 211);
+    overflow: hidden;
+}
+
+.top-nav a
+{
+color: black;
+display: block;
+padding: 14px 16px;
+float: left;
+text-decoration: none;
+text-align: center;
+}
+
+.active
+{
+    background-color: cyan;
+}
+
+.top-nav a:hover:not(.active)
+{
+    background-color: lightgray;
+}
+
